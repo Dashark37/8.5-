@@ -6,6 +6,7 @@ use app\home\model\Goods;
 class CategoryController extends Controller{
 
 	public function index(){
+		echo 111;
 		//获取当前商品分类id
 		$cat_id = input('cat_id');
 		
