@@ -28,6 +28,8 @@ Route::get('home/index/test','home/index/test');
 
 //前台分组路由
 Route::group("home",function(){
+	//定义商品详情页的路由
+	Route::any('goods/detail','home/goods/detail');
 	 //分类列表页的路由
     Route::any('category/index','home/category/index');
     //重置新密码的路由

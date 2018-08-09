@@ -4,7 +4,7 @@ use think\Controller; //引入Controller核心控制器
 use app\home\model\Category;
 use app\home\model\Goods;
 class CategoryController extends Controller{
-
+	//分类列表页
 	public function index(){
 		//获取当前商品分类id
 		$cat_id = input('cat_id');
